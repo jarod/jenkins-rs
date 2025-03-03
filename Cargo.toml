@@ -3,6 +3,10 @@ name = "jenkins-rs"
 version = "0.1.0"
 edition = "2021"
 description = "A Jenkins API client for Rust"
+authors = ["Jarod Liu <liuyuanzhi@gmail.com>"]
+repository = "https://github.com/jarod/jenkins-rs"
+license-file = "LICENSE"
+categories = ["api-bindings"]
 
 [dependencies]
 log = "0.4"
