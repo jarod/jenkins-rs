@@ -1,0 +1,23 @@
+[package]
+name = "jenkins-rs"
+version = "0.1.0"
+edition = "2021"
+description = "A Jenkins API client for Rust"
+
+[dependencies]
+log = "0.4"
+reqwest = { version = "0.12", features = ["json"] }
+thiserror = "2.0"
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+serde_json = "1.0"
+tokio = { version = "1.42", features = [
+	"macros",
+	"rt-multi-thread",
+	"sync",
+	"parking_lot",
+] }
+
+[dev-dependencies]
+env_logger = "0.11"
